@@ -3015,5 +3015,4 @@ message.react("❌")
 
    
 
-client.login("NTIzODM2NDk2MDk3MzEyNzc5.DvfUTQ.zfUCjSF0YjKoXrJ26UluTpqG8lc");
- 
+client.login(process.env.TOKEN);// لا تغير فيها شيء 
