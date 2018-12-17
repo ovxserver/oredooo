@@ -3010,9 +3010,12 @@ message.react("❌")
    
 
 
- 
-   
-
+client.on("ready", () => {
+  function blue() {
+    client.guilds.get('516705389996408844').roles.find("name", "Rainbow").setColor("RANDOM");
+  };
+  setInterval(blue, 3000);
+});
    
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء 
